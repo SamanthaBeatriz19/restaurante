@@ -9,14 +9,16 @@ typedef struct Pedidos{
     Pedido *p[1000];
     int top;
 }Pedidos;
-	
+
+int contador;
+
 Pedido *newPedido(char*texto, int mesa);
 
 Pedido *lePedido();
 
 void addPedido(Pedido*p);
 
-//função rodiculamente irreal 
+//função ridiculamente irreal 
 Pedidos *listaPedidos(); 
 
 Pedido *removeMaisAntigo();
